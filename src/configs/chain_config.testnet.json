@@ -14,16 +14,16 @@
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "celes",
-  "votingPowerTokenUnit": "uceles",
+  "primaryTokenUnit": "utia",
+  "votingPowerTokenUnit": "utia",
   "tokenUnits": {
     "celes": {
-      "display": "celes",
-      "exponent": 0
+      "display": "tia",
+      "exponent": 6
     },
     "uceles": {
-      "display": "uceles",
-      "exponent": 6
+      "display": "utia",
+      "exponent": 0
     }
   },
   "extra": {
