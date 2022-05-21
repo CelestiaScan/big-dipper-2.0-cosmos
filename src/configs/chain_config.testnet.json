@@ -1,17 +1,17 @@
 {
   "title": "Celestia Block Explorer",
-  "network": "devnet2",
+  "network": "test",
   "icon": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/b33b41a56c99b59c2bd78a05235772d8b965ceb4/celestia/icon.png",
   "logo": {
     "default": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/master/celestia/logo.png"
   },
   "prefix": {
-    "consensus": "celesvalcons",
-    "validator": "celesvaloper",
-    "account": "celes"
+    "consensus": "celestiavalcons",
+    "validator": "celestiavaloper",
+    "account": "celestia"
   },
   "genesis": {
-    "time": "2021-07-13T08:00:00",
+    "time": "2022-05-20T23:38:58",
     "height": 1
   },
   "primaryTokenUnit": "utia",
