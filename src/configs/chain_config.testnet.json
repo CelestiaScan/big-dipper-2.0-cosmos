@@ -17,11 +17,11 @@
   "primaryTokenUnit": "utia",
   "votingPowerTokenUnit": "utia",
   "tokenUnits": {
-    "celes": {
+    "tia": {
       "display": "tia",
       "exponent": 6
     },
-    "uceles": {
+    "utia": {
       "display": "utia",
       "exponent": 0
     }
