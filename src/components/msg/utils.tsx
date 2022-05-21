@@ -348,11 +348,11 @@ const getDataByType = (type: string) => {
     // ========================
     // Celestia
     // ========================
-    '/payment.MsgPayForMessage': {
-      model: MODELS.MsgPayForMsg,
-      content: COMPONENTS.PayForMsg,
+    '/payment.MsgPayForData': {
+      model: MODELS.MsgPayForData,
+      content: COMPONENTS.PayForData,
       tagTheme: 'four',
-      tagDisplay: 'txPayForMessage',
+      tagDisplay: 'txPayForData',
     },
     // ========================
     // profiles

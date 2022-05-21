@@ -2,7 +2,7 @@ import React from 'react';
 import { RecoilRoot } from 'recoil';
 import renderer from 'react-test-renderer';
 import { MockTheme } from '@tests/utils';
-import { MsgPayForMsg } from '@models';
+import { MsgPayForData } from '@models';
 import Send from '.';
 
 // ==================================
@@ -16,11 +16,11 @@ jest.mock('@components', () => ({
 // ==================================
 // unit tests
 // ==================================
-describe('screen: TransactionDetails/MsgPayForMsg', () => {
+describe('screen: TransactionDetails/MsgPayForData', () => {
   it('matches snapshot', () => {
-    const message = new MsgPayForMsg({
+    const message = new MsgPayForData({
       category: 'payment',
-      type: 'MsgPayForMsg',
+      type: 'MsgPayForData',
       signer: 'signer',
       message_namespace_id: 'message_namespace_id',
       message_size: 'message_size',

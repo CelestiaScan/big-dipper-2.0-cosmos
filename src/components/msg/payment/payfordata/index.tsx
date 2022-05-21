@@ -2,13 +2,13 @@ import React from 'react';
 import Trans from 'next-translate/Trans';
 import { Typography } from '@material-ui/core';
 import { Name } from '@components';
-import { MsgPayForMsg } from '@models';
+import { MsgPayForData } from '@models';
 import {
   useProfileRecoil,
 } from '@recoil/profiles';
 
-const PayForMsg = (props: {
-  message: MsgPayForMsg;
+const PayForData = (props: {
+  message: MsgPayForData;
 }) => {
   const { message } = props;
 
@@ -18,7 +18,7 @@ const PayForMsg = (props: {
   return (
     <Typography>
       <Trans
-        i18nKey="message_contents:txPayForMsgContent"
+        i18nKey="message_contents:txPayForDataContent"
         components={[
           (
             <Name
@@ -40,4 +40,4 @@ const PayForMsg = (props: {
   );
 };
 
-export default PayForMsg;
+export default PayForData;

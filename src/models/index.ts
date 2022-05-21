@@ -7,7 +7,7 @@ import DistributionParams from './distribution_params';
 // ================================
 // Celestia Message Types
 // ================================
-import MsgPayForMsg from './msg/payment/msg_payForMsg';
+import MsgPayForData from './msg/payment/msg_payForData';
 // ================================
 // Transaction Message Types
 // ================================
@@ -84,7 +84,7 @@ export {
 };
 
 export {
-  MsgPayForMsg,
+  MsgPayForData,
   MsgSend,
   MsgMultiSend,
   MsgVerifyInvariant,

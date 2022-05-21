@@ -10,7 +10,7 @@ import {
 // =========================
 // Celestia msg components
 // =========================
-import PayForMsg from './payment/payformsg';
+import PayForData from './payment/payfordata';
 // =========================
 // msg components
 // =========================
@@ -80,7 +80,7 @@ export {
 };
 
 export {
-  PayForMsg,
+  PayForData,
   Delegate,
   Unknown,
   Redelegate,

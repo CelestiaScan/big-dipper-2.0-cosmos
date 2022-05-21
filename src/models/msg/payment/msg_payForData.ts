@@ -1,6 +1,6 @@
 import { Categories } from '../types';
 
-class MsgPayForMsg {
+class MsgPayForData {
   public category: Categories;
   public type: string;
   public signer: string;
@@ -32,7 +32,7 @@ class MsgPayForMsg {
       message_namespace_id: hexNamespaceId,
       message_share_commitment: hexCommitment,
     };
-    return new MsgPayForMsg({
+    return new MsgPayForData({
       type: json['@type'],
       signer: json.signer,
       message_size: json.message_size,
@@ -43,4 +43,4 @@ class MsgPayForMsg {
   }
 }
 
-export default MsgPayForMsg;
+export default MsgPayForData;
